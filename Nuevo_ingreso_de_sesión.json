@@ -1,0 +1,24 @@
+{
+    "clientId": "",
+    "channel": "MAIL",
+    "brand": "LIV", //mandatory field */
+    "mail": {
+        "messageCode": "0015", //mandatory number for email "generales"//
+        "to": "jialbarranc@liverpool.com.mx",
+        "body": {
+            "nuevaContrasena": "string255",
+            "nombreUsuario": "ISRA",
+            "apellidoUsuario": "ALBARRAN",
+            "nombreCliente": "ISRA",
+            "tipoCorreo": "NUEVOINGRESOATUCUENTA", //mandatory field for this email"
+            "hora": "12:00", //mandatory//
+            "dispositivo": "Mac OSx", //mandatory//
+            "navegador": "Chrome",  //mandatory//
+            "cambiarContraseña": "http...", //dinamic link for each user to change their password//
+            "negocio": "LIV", 
+            "email": "string255",
+            "genero": "string127"
+   
+        }
+    }
+ }
